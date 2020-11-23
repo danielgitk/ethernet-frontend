@@ -1,0 +1,23 @@
+mat-card{
+    width:50%;
+    
+    margin-right: auto;
+    margin-top: 3%;
+   
+    
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+.some-container{
+    /* margin-left: 5%; */
+    margin-bottom: 7%;
+}
+.hover-implement:hover{
+    background-color:  #056e8e;
+    color: white;
+}

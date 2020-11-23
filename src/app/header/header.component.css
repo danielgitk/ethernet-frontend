@@ -1,0 +1,40 @@
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+    
+  }
+
+mat-toolbar {
+  border-bottom: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  
+  
+}
+#site-title{
+  color: #056f8f ;
+  font-size: larger;
+}
+  
+  a {
+    text-decoration: none;
+   color: black;
+  }
+
+  ul{
+    display: flex;
+    
+  }
+  
+  
+  .spacer {
+    flex: 1 1 auto;
+  }
+  .some-width{
+      width: 5%
+  }
+  * {
+    font-family: 'Times New Roman', Times, serif
+}

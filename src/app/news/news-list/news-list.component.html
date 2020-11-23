@@ -1,0 +1,42 @@
+<div class=some-container><h1>News</h1>
+<mat-card>
+
+
+
+    <mat-card-title>{{title}}
+        <mat-card-subtitle>{{date}}</mat-card-subtitle>
+    </mat-card-title>
+   
+
+    <mat-card-content>
+        <img mat-card-image src="http://moshe.gov.et/files/1604147628101.jpg" width="10px" height="00%"alt="hello world">
+        
+     {{shortdesc}}
+        <br>
+        <button mat-stroked-button (click)="onClicked()"class="hover-implement"color="accent" >Read more</button>
+    </mat-card-content>
+    </mat-card>
+   
+    <mat-card>
+
+
+
+        <mat-card-title>{{title}}
+            <mat-card-subtitle>{{date}}</mat-card-subtitle>
+        </mat-card-title>
+       
+    
+        <mat-card-content>
+            <img mat-card-image src="http://moshe.gov.et/files/1603797116870.jpg" width="70px"alt="hello world">
+            <br>
+            {{shortdesc}}
+            <br>
+        <button mat-stroked-button class="hover-implement" color="accent" >Read more</button>
+        </mat-card-content>
+        </mat-card>
+        <button mat-stroked-button color="accent" >previous</button> <button mat-stroked-button color="accent" >Next</button>
+
+
+    </div>    
+           
+            
