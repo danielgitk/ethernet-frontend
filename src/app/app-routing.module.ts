@@ -11,6 +11,7 @@ import { TendersComponent } from './tenders/tenders.component';
 import { VacanciesComponent } from './vacancies/vacancies.component';
 
 const routes: Routes = [
+  {path:'', component: NewsListComponent},
   {path:'news', component: NewsListComponent},
   {path:'login', component: LoginComponent},
   {path:'newsdetails',component:NewsDetailsComponent},
