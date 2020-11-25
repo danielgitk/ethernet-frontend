@@ -1,6 +1,21 @@
 mat-form-field{
-    width: 100%
+    width: 100%;
   }
   mat-spinner {
-    margin : auto
+    margin : auto;
+  }
+  mat-card{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 3%;
+  }
+  form{
+    padding:5%;
+  }
+  button{
+    margin-top: 3%;
+    width: 100%;
+  }
+  mat-card-title{
+    text-align: center;
   }
