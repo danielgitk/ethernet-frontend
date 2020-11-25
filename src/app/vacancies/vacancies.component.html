@@ -1,11 +1,43 @@
 
-<mat-card-title>
-    <b>Vacancies</b>
-</mat-card-title> 
-
-<mat-card>
-    <mat-card-content>
-        <img mat-card-image src="http://moshe.gov.et/files/1603797116870.jpg" width="70px"alt="hello world">
-        <br>
-    </mat-card-content>
-</mat-card>
+<div class="search">
+    <mat-form-field class="input" appearance="outline">
+        <input matInput placeholder="Search...">
+    </mat-form-field>
+    <button mat-button color="primary">Search</button>
+    <!-- <mat-form-field appearance="fill">
+        <mat-label>Sort BY</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let sortBy of deadlineOrTitle" [value]="sortBy1.value">
+            {{sortBy.viewValue}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Sort BY</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let sortBy of AscendOrDescend" [value]="sortBy.value">
+            {{sortBy.viewValue}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field> -->
+      <mat-form-field appearance="fill" class="sorting1">
+        <mat-label>Sort By</mat-label>
+        <select matNativeControl required>
+          <option value="volvo">Deadline</option>
+          <option value="saab">Title</option>
+        </select>
+      </mat-form-field>
+      <mat-form-field appearance="fill" class="sorting2">
+        <mat-label>Sort By</mat-label>
+        <select matNativeControl required>
+          <option value="volvo">Ascending</option>
+          <option value="saab">Descending</option>
+        </select>
+      </mat-form-field>
+</div>
+<div class="archivesLink">
+    <a mat-raised-button href="#" target="_blank">Archives</a>
+</div>
+<div class="results">
+    <mat-card-title>No vancancy found</mat-card-title>
+</div>

@@ -1,12 +1,20 @@
 button{
     background-color: teal;
+    height:100%;
 }
 mat-form-field{
     padding: 5%;
     margin-bottom: -6%;
     margin-top: -3%;
-    width:20%;
     margin-left: -5%;
+    /* background-color: lawngreen; */
+}
+.input{
+    width:30%;
+    height: 10px;
+}
+input{
+    height: 10px;
 }
 .sorting1{
     margin-left: 1%;
@@ -15,6 +23,14 @@ mat-form-field{
     margin-left: -5%;
 }
 div{
-    padding-bottom: 5%;
-    margin-left: -7%;
+    /* padding-bottom: 5%; */
+    /* margin-left: -15%; */
+    align-content: center;
+}
+.results{
+    padding-top: 5%;
+}
+mat-card-title{
+    color: teal;
+    font-size: xx-large;
 }
