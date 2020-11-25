@@ -1,9 +1,45 @@
 
-<mat-card-title>
-    <b>Tenders</b>
-</mat-card-title> 
-
-<mat-card>
-    <mat-card-content>
-    </mat-card-content>
-</mat-card>
+<div class="search">
+    <mat-form-field appearance="outline">
+        <input matInput placeholder="Search...">
+    </mat-form-field>
+    <button mat-button color="primary">Search</button>
+    <!-- <mat-form-field appearance="fill">
+        <mat-label>Sort BY</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let sortBy of deadlineOrTitle" [value]="sortBy1.value">
+            {{sortBy.viewValue}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Sort BY</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let sortBy of AscendOrDescend" [value]="sortBy.value">
+            {{sortBy.viewValue}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field> -->
+      <mat-form-field appearance="fill" class="sorting1">
+        <mat-label>Sort By</mat-label>
+        <select matNativeControl required>
+          <option value="volvo">Deadline</option>
+          <option value="saab">Title</option>
+        </select>
+      </mat-form-field>
+      <mat-form-field appearance="fill" class="sorting2">
+        <mat-label>Sort By</mat-label>
+        <select matNativeControl required>
+          <option value="volvo">Ascending</option>
+          <option value="saab">Descending</option>
+        </select>
+      </mat-form-field>
+</div>
+<mat-divider></mat-divider>
+<div class="archivesLink">
+    <a mat-raised-button href="#" target="_blank">Archives</a>
+</div>
+<mat-divider></mat-divider>
+<div class="results">
+    <mat-card-title>No tender found</mat-card-title>
+</div>

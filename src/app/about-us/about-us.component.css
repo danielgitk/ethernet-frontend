@@ -54,7 +54,10 @@ button{
 }
 .imageLogo{
     align-content: center;
-    /* width: auto;
-    height: 30%; */
+    width: 30%;
+    /* height: 100px; */
     margin-left: 25%;
+}
+img{
+    object-fit: cover;
 }

@@ -1,0 +1,20 @@
+button{
+    background-color: teal;
+}
+mat-form-field{
+    padding: 5%;
+    margin-bottom: -6%;
+    margin-top: -3%;
+    width:20%;
+    margin-left: -5%;
+}
+.sorting1{
+    margin-left: 1%;
+}
+.sorting2{
+    margin-left: -5%;
+}
+div{
+    padding-bottom: 5%;
+    margin-left: -7%;
+}
