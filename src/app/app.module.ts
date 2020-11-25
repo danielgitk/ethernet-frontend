@@ -11,6 +11,15 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './auth/login/login.component';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { VacanciesComponent } from './vacancies/vacancies.component';
+import { ServiceComponent } from './service/service.component';
+import { TendersComponent } from './tenders/tenders.component';
+import { DocumentsComponent } from './documents/documents.component';
+import { AdministrationComponent } from './administration/administration.component';
+import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -19,14 +28,23 @@ import { FormsModule } from '@angular/forms';
     NewsDetailsComponent,
     HeaderComponent,
     FooterComponent,
-    LoginComponent
+    LoginComponent,
+    AboutUsComponent,
+    VacanciesComponent,
+    ServiceComponent,
+    TendersComponent,
+    DocumentsComponent,
+    AdministrationComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     MaterialModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule,
+    MatCardModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

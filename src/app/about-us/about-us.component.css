@@ -1,0 +1,60 @@
+mat-card{
+    margin-right: auto;
+    margin-top: 5%;
+    
+    
+} 
+* {
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+mat-card-title{
+    text-align: center;
+    font-size: 300%;
+}
+mat-card-content{
+    font-size: larger;
+    padding: 3%;
+    font-weight: lighter;
+}
+.left{
+    float: left;
+    width: 70%;
+    margin-left: -9%;
+    /* background-color: green; */
+    /* margin-bottom: -10%; */
+}
+.right{
+    float: right;
+    width: 20%;
+    margin-right: 5%;
+    /* background-color: green; */
+}
+div{
+    padding: 3%;
+}
+.com{
+    font-size: 200%;
+}
+.ethernet{
+    font-size: 280%;
+}
+form{
+    width: 160%;
+}
+mat-form-field{
+    width: 100%;
+}
+mat-card{
+    margin-right: 2%;
+    margin-top: -2%;
+}
+button{
+    background-color: teal;
+}
+.imageLogo{
+    align-content: center;
+    /* width: auto;
+    height: 30%; */
+    margin-left: 25%;
+}

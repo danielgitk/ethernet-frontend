@@ -10,8 +10,7 @@ export class NewsListComponent implements OnInit {
 
   constructor(private router:Router) { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
   today = new Date();
   title= "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
   shortdesc = "Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit"
